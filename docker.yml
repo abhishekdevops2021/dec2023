@@ -5,4 +5,4 @@
      - name: remove container
        shell: docker container rm mycardsite
      - name: create container
-       shell: docker container run -itd --name mycardsite -p 9000:80 959597/mysite
+       shell: docker container run -itd --name mycardsite -p 80:80 959597/mysite
