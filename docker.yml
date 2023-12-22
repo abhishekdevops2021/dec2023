@@ -7,4 +7,4 @@
      - name: remove docker image
        shell: docker image rm 959597/mycardsite
      - name: create container
-       shell: docker container run -itd --name mycard -p 9000:80 959597/mycardsite
+       shell: docker container run -itd --name mycard -p 80:80 959597/mycardsite
